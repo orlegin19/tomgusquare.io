@@ -1,0 +1,63 @@
+MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="----=_NextPart_dummy"
+
+------=_NextPart_dummy
+Content-Location: WorkBook.htm
+Content-Type: text/html; charset=windows-1252
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta name="Excel Workbook Frameset">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="File-List" href="filelist.xml">
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+    <x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Sheet0</x:Name><x:WorksheetSource HRef="sheet0.htm"/></x:ExcelWorksheet></x:ExcelWorksheets>
+    <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<frameset>
+    <frame src="sheet0.htm" name="frSheet">
+    <noframes><body><p>This page uses frames, but your browser does not support them.</p></body></noframes>
+</frameset>
+</html>
+
+------=_NextPart_dummy
+Content-Location: sheet0.htm
+Content-Type: text/html; charset=windows-1252
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link id="Main-File" rel="Main-File" href="../WorkBook.htm">
+    <link rel="File-List" href="filelist.xml">
+</head>
+<body><table>
+                <thead>
+                    <tr>
+                        <td class="text-center">#</td>
+                        <td class="text-center">Referrence #</td>
+                        <td class="text-center">Date</td>
+                        <td class="text-center">Amount</td>
+                    </tr>
+                </thead>
+                <tbody><tr><td>1</td><td>HLJ-3837</td><td>Nov 30, 2023</td><td class="text-right">Php 350.00</td></tr><tr><td>2</td><td>BEA-0534</td><td>Nov 30, 2023</td><td class="text-right">Php 335.00</td></tr></tbody>
+                <tfoot>
+                    <tr>
+                        <td class="text-center" colspan="3"><b>Total Sales</b></td>
+                        <td class="text-right" colspan="3"><b id="gTotal">Php 685.00</b></td>
+                    </tr>
+                </tfoot>
+            </table></body>
+</html>
+Content-Location: filelist.xml
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o="urn:schemas-microsoft-com:office:office">
+    <o:MainFile HRef="../WorkBook.htm"/>
+    <o:File HRef="sheet0.htm"/>
+    <o:File HRef="filelist.xml"/>
+</xml>
+------=_NextPart_dummy--

@@ -1,0 +1,11 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: .
+
+env_variables:
+  GOOGLE_STORAGE_BUCKET : "calle-luna-rios.appspot.com"
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/calle-luna-rios:asia-southeast1:calle-luna;dbname=rios_db
+  MYSQL_USER: root
+  MYSQL_PASSWORD: '7531598426'
